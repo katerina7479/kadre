@@ -1,0 +1,6 @@
+{
+    "Tank": {
+        "tag": "text",
+        "maxvolume": "integer"
+        }
+}

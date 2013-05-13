@@ -1,0 +1,50 @@
+{
+    "&File":{
+        "dashboard":{
+            "pos": 1,
+            "icon": "view\\assets\\icons\\dashboard.png",
+            "text": "Open Dashboard",
+            "shortcut": "Ctrl+D",
+            "statustip": "Open Dashboard"
+        },
+        "open":{
+            "pos": 2,
+            "icon": "view\\assets\\icons\\open_project.png",
+            "text": "Open Project",
+            "shortcut": "Ctrl+O",
+            "statustip": "Open Existing Project"
+        },
+        "new":{
+            "pos": 3,
+            "icon": "view\\assets\\icons\\new.png",
+            "text": "New Project",
+            "shortcut": "Ctrl+N",
+            "statustip": "Create New Project"
+        },
+        "Separator": {
+            "pos": 7
+            },
+        "close":{
+            "pos": 8,
+            "icon": "view\\assets\\icons\\close_project.png",
+            "text": "Close Project",
+            "shortcut": "Ctrl+E",
+            "statustip": "Close this Project"
+        },
+        "exit":{
+            "pos": 9,
+            "icon": "view\\assets\\icons\\exit.png",
+            "text": "Quit",
+            "shortcut": "Ctrl+Q",
+            "statustip": "Exit Program"
+        }
+    },
+    "&Settings":{
+        "database":{
+            "pos": 1,
+            "text": "Database",
+            "icon": "view\\assets\\icons\\database.png",
+            "statustip": "Change Database Information"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "dashboard":{
+        "pos": 1,
+        "icon": "view\\assets\\icons\\dashboard.png",
+        "text": "Open Dashboard",
+        "shortcut": "Ctrl+D",
+        "statustip": "Open Dashboard"
+        },
+
+    "open":{
+        "pos": 2,
+        "icon": "view\\assets\\icons\\open_project.png",
+        "text": "Open Project",
+        "shortcut": "Ctrl+O",
+        "statustip": "Open Existing Project"
+    },
+    "Separator": {
+        "pos": 3
+    },
+    "back":{
+        "pos": 4,
+        "icon": "view\\assets\\icons\\back.png",
+        "text": "Last Page",
+        "shortcut": "Ctrl+1",
+        "statustip": "Go to last Page"
+    },
+    "next":{
+        "pos": 5,
+        "icon": "view\\assets\\icons\\next.png",
+        "text": "Next Page",
+        "shortcut": "Ctrl+2",
+        "statustip": "Go to next Page"
+    },
+    "Separator": {
+        "pos": 6
+    },
+    "build":{
+        "pos": 7,
+        "icon": "view\\assets\\icons\\build.png",
+        "text": "Build PDFs",
+        "shortcut": "Ctrl+M",
+        "statustip": "Make Reports"
+    }
+}
