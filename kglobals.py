@@ -7,7 +7,6 @@
 
 
 import os
-from test import _TESTING
 
 _PATH = os.path.dirname(os.path.abspath(__file__))
 

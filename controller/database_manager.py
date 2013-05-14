@@ -1,23 +1,21 @@
 import sqlite3
 from kglobals import _PATH
-from kglobals import _TESTING
 
 
 class DatabaseManager():
     def __init__(self, path=None):
         if path is None:
-            self._SetPath()
+            self.SetPath(False)
         else:
             self.path = path
 
-    def _SetPath(self):
-        if _TESTING is True:
+    def SetPath(self, mytest):
+        if mytest is True:
             self.path = _PATH + "\\data\\database\\test.sqlite3"
-        elif _TESTING is False:
+        elif mytest is False:
             self.path = _PATH + "\\data\\database\\project.sqlite3"
         else:
             print "Path is %s" % _PATH
-            print "Testing is %s" % _TESTING
             raise Exception("Cannot initialize database")
 
     def _CreateConnection(self):
