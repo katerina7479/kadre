@@ -1,7 +1,7 @@
 kadre
 =====
 
-A Python app framework
+A Python Application Demo
 
 Introduction:
   I wrote Kadre for myself to make quick Python-based applications. I followed a model-view-
